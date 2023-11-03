@@ -3,8 +3,8 @@ Repositório destinado a adicionar meus estudos.
 Cada pasta deste repositório representa alguns exercicícios/miniprojetos de uma gama de estudos.
 
 
-Para acessar as atividades da pasta "teste", basta seguir: teste>src>Escola
-
+Para acessar as atividades da pasta de Atividades Java, basta seguir por exemplo: PASTA>src>AtividadeJava
+Exercícios Java normalmente feito na IDE Eclipse Versão 2023
 
 \\Adicionar\\
 
