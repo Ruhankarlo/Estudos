@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="logo_SJ.png" width="200"><br>
+    <h1>São João supermarket</h1>
+    <a href="registro.html"><h2>Registro de produtos🔓</h2></a>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    <a href="listarProduto.php">Listagem</a>
+    <form action="insereProduto.php" method="post">
+        <label for="SKU">SKU:</label>
+        <input type="text" name="sku"><br><br>
+                
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome"><br><br>
+                
+        <label for="quantidade">Quantidade:</label>
+        <input type="text" name="quantidade"><br><br>
+
+        <label for="quantidade">Marca:</label>
+        <input type="text" name="marca"><br><br>
+                
+        <label for="valordecompra">Valor de compra:</label><br>
+        <input type="text" name="valor_custo"><br><br>
+
+        <label for="valordevenda">Valor de venda:</label><br>
+        <input type="text" name="valor_venda"><br><br>
+                
+        <button type="submit">Cadastrar</button>
+    </form>
+
+</body>
+</html>
